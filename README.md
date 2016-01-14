@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data-Course-Project
-Course Project
+#Course Project
 
 You should create one R script called run_analysis.R that does the following.
 
@@ -9,7 +9,7 @@ You should create one R script called run_analysis.R that does the following.
 4.Appropriately labels the data set with descriptive activity names.
 5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The data source
+#The data source
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -19,7 +19,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-The data
+#The data
 
 The dataset includes the following files:
 
