@@ -48,3 +48,12 @@ The following files are available for the train and test data. Their description
 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
+#Steps:
+
+1.Require reshapre2 ,plyr and data.table librareis.
+2.Input both testing and training data
+3.Load the features and activity labels. Rename column names.
+4.Extract the mean and standard deviation column names and data.
+5.Merge data sets. Create one master dataset called "Finaldataset.csv".
+6.Create summary data set Finalmean.csv table, which includes mean of each measure of each subject & activity.
