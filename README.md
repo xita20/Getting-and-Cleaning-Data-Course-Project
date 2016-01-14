@@ -3,11 +3,11 @@
 
 You should create one R script called run_analysis.R that does the following.
 
- 1 Merges the training and the test sets to create one data set.
- 2 Extracts only the measurements on the mean and standard deviation for each measurement.
- 3 Uses descriptive activity names to name the activities in the data set
- 4 Appropriately labels the data set with descriptive activity names.
- 5 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* 1 Merges the training and the test sets to create one data set.
+* 2 Extracts only the measurements on the mean and standard deviation for each measurement.
+* 3 Uses descriptive activity names to name the activities in the data set
+* 4 Appropriately labels the data set with descriptive activity names.
+* 5 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 #The data source
 
@@ -51,9 +51,9 @@ The following files are available for the train and test data. Their description
 
 #Steps:
 
- 1 Require reshapre2 ,plyr and data.table librareis
- 2 Input both testing and training data
- 3 Load the features and activity labels. Rename column names
- 4 Extract the mean and standard deviation column names and data
- 5 Merge data sets. Create one master dataset called "Finaldataset.csv"
- 6 Create summary data set Finalmean.csv table, which includes mean of each measure of each subject & activity
+ *1 Require reshapre2 ,plyr and data.table librareis
+ *2 Input both testing and training data
+ *3 Load the features and activity labels. Rename column names
+ *4 Extract the mean and standard deviation column names and data
+ *5 Merge data sets. Create one master dataset called "Finaldataset.csv"
+ *6 Create summary data set Finalmean.csv table, which includes mean of each measure of each subject & activity
