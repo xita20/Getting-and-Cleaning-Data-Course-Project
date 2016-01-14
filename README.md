@@ -51,9 +51,9 @@ The following files are available for the train and test data. Their description
 
 #Steps:
 
- *1 Require reshapre2 ,plyr and data.table librareis
- *2 Input both testing and training data
- *3 Load the features and activity labels. Rename column names
- *4 Extract the mean and standard deviation column names and data
- *5 Merge data sets. Create one master dataset called "Finaldataset.csv"
- *6 Create summary data set Finalmean.csv table, which includes mean of each measure of each subject & activity
+*1 Require reshapre2 ,plyr and data.table librareis
+*2 Input both testing and training data
+*3 Load the features and activity labels. Rename column names
+*4 Extract the mean and standard deviation column names and data
+*5 Merge data sets. Create one master dataset called "Finaldataset.csv"
+*6 Create summary data set Finalmean.csv table, which includes mean of each measure of each subject & activity
